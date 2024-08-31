@@ -5,3 +5,8 @@ Performed the end to end Exploratory Data Analysis, and idenfitied the character
 🟢 For EDA, please refer to : Churn Analysis - EDA.ipynb <br/>
 🟢 For Model Building, please refer to: Churn Analysis - Model Building.ipynb <br/>
 🟢 For Model Deployment, please refer to app.py <br/>
+
+After creating Flask application (app.py) go to Anaconda Prompt, and run the below query.
+python app.py
+Below message in Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
+* Running on http://127.0.0.1:5000/
