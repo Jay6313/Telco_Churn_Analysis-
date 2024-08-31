@@ -11,3 +11,7 @@ After creating Flask application (app.py) go to Anaconda Prompt, and run the bel
 
 Below message in Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
 * Running on http://127.0.0.1:5000/
+
+HERE'S HOW OUR FRONTEND LOOKS LIKE:
+
+![Telco6](https://github.com/user-attachments/assets/3cd5e3e7-2f1b-44b5-8251-0ca7ac65aab1)
