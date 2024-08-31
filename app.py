@@ -5,17 +5,19 @@ from sklearn import metrics
 from flask import Flask, request, render_template
 import pickle
 
+# Creating the Flask application.
 app = Flask("__name__")
 
 df_1=pd.read_csv("first_telc.csv")
 
 q = ""
 
+#The loadPage method calls our home.html.
 @app.route("/")
 def loadPage():
 	return render_template('home.html', query="")
 
-
+#The predict method is our POST method, which is basically called when we pass all the inputs from our front end and click SUBMIT.
 @app.route("/", methods=['POST'])
 def predict():
     
@@ -125,5 +127,6 @@ def predict():
                            query17 = request.form['query17'],
                            query18 = request.form['query18'], 
                            query19 = request.form['query19'])
-    
+
+#The run() method of Flask class runs the application on the local development server.
 app.run()
